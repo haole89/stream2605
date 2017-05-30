@@ -1,0 +1,19 @@
+{
+  "name": "stream2605",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haole89/stream2605.git"
+  },
+  "author": "haole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haole89/stream2605/issues"
+  },
+  "homepage": "https://github.com/haole89/stream2605#readme"
+}

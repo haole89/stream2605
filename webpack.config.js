@@ -1,6 +1,6 @@
 module.exports={
-  retry:"./src/app.js",
+  entry:"./src/app.js",
   output:{
-    filename:"/public/bundle.js"
+    filename:"./public/bundle.js"
   }
 };

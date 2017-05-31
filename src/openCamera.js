@@ -1,8 +1,9 @@
 const playVideo=require("./playVideo");
-function openCamera(){
-  navigator.mediaDevices.getUserMedia({audio:false, video:{width:200, height:200 }})
+
+function openCamera(cb){
+  navigator.mediaDevices.getUserMedia({audio:false, video:true})
   .then(function(stream){
-    playVideo(stream, "localStream");
+    cb(stream);
   })
   .catch(function(err){console.log(err)});
 }
